@@ -1,0 +1,82 @@
+.card {
+  background-color: #000000;
+  margin: 20px;
+  padding: 10px;
+  color: #ffffff;
+  width: 10000px;
+  border-radius: 10px;
+  border: 1px solid #004e91;
+}
+
+
+.button-def {
+  font: inherit;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background: #004e91;
+}
+
+.button-def:hover, .button-def:active {
+  background: #0088ff;
+  border-color: #7cd3ff;
+}
+
+.button-def:focus {
+  outline: none;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.245);
+  backdrop-filter: blur(2px)
+}
+
+.modal {
+  text-align: start;
+  position: fixed; 
+  top: 30vh;
+  left: 10%;
+  width: 80%;
+  z-index: 100;
+  overflow: hidden;
+  background-color: #000000;
+  margin: 20px;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.modal header {
+  background: #004e91;
+  padding: 1rem;
+  color: #ffffff
+}
+
+.modal h2 {
+  margin: 0;
+  color: #ffffff;
+}
+
+.modal div {
+  padding: 1rem;
+}
+
+.modal footer {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+}
+

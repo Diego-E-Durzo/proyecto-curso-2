@@ -1,0 +1,52 @@
+.card {
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 70rem;
+  
+}
+
+.card label {
+  text-align: start;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card input {
+  font: inherit;
+  display: block;
+  width: 100%;
+  color: #cccccc;
+  background-color: #242424;
+  border: 1px solid #0335a1;
+  padding: 0.15rem;
+  margin-bottom: 0.5rem;
+}
+
+.card input:focus {
+  outline: none;
+  border-color: #0335a1;
+}
+
+.card-list {
+  text-align: center;
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 70rem;
+}
+
+.card ul {
+  list-style: none;
+  padding: 1ren;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem ;
+}
+
+.card li {
+  background-color: #242424;
+  border-radius: 6px;
+  border: 1px solid #0335a1;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
